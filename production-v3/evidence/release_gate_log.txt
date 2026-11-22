@@ -1,0 +1,12 @@
+$ python scripts/producer.py evaluate
+HOLD — not approved for final distribution
+ - story: NOT_RUN
+ - visual_identity: NOT_RUN
+ - originality: NOT_RUN
+ - contact_animation: NOT_RUN
+ - face_deformation: NOT_RUN
+ - engineering_native: NOT_RUN
+ - independent_audit: NOT_RUN
+ - producer_release: NOT_RUN
+
+exit_code=2

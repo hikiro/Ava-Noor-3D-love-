@@ -1,0 +1,78 @@
+{
+  "release": "v2.2",
+  "not_an_executed_agent_team": true,
+  "required_gates": [
+    "story",
+    "visual_identity",
+    "originality",
+    "contact_animation",
+    "face_deformation",
+    "engineering_native",
+    "independent_audit",
+    "producer_release"
+  ],
+  "gates": {
+    "story": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "visual_identity": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "originality": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "contact_animation": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "face_deformation": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "engineering_native": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "independent_audit": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    },
+    "producer_release": {
+      "verdict": "NOT_RUN",
+      "execution_mode": "not_executed",
+      "evidence": [],
+      "defects": [],
+      "reviewed_at": null
+    }
+  },
+  "open_v21_defects": [
+    "Mouth lip layers separate at strong visemes",
+    "No natural interlocking grasp; 39 mm separation workaround",
+    "Procedural character fidelity below approved reference",
+    "Native Godot import/playback unverified"
+  ]
+}

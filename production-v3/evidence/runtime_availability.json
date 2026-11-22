@@ -1,0 +1,16 @@
+{
+  "checked_in_container": [
+    "claude",
+    "godot",
+    "blender"
+  ],
+  "found": {
+    "claude": null,
+    "godot": null,
+    "blender": null
+  },
+  "actual_independent_agent_runs": 0,
+  "chat_role_based_intake_reviews": 1,
+  "native_engine_runs": 0,
+  "source_review": "/mnt/data/VillaVerse_Models_v2_1"
+}

@@ -1,0 +1,168 @@
+{
+  "release": "2.2",
+  "focus": "Replace failing art foundation before expanding episodes",
+  "state": "PLANNED_NOT_EXECUTED",
+  "created_utc": "2026-11-21T05:40:40.950331+00:00",
+  "work_orders": [
+    {
+      "id": "V22-01",
+      "owner": "executive-producer",
+      "task": "Freeze brief and target reference board; set pass/fail and file ownership",
+      "dependencies": [],
+      "deliverables": [
+        "plans/V22_TASK_BOARD.json",
+        "docs/ACCEPTANCE_GATES.md"
+      ],
+      "status": "ready"
+    },
+    {
+      "id": "V22-02",
+      "owner": "creative-director",
+      "task": "Refine 30s Wrong Choice hook, physical acting beats, shot grammar, distinctive direction",
+      "dependencies": [
+        "V22-01"
+      ],
+      "deliverables": [
+        "boards/creative_direction.png",
+        "plans/shot_plan_v22.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-03",
+      "owner": "art-director-3d",
+      "task": "Compare current v2.1 cast with MPFB2/MakeHuman Rigify anatomical-base concept; choose one style and rig standard",
+      "dependencies": [
+        "V22-01"
+      ],
+      "deliverables": [
+        "lookdev/reference_comparison.png",
+        "lookdev/approved_anatomy_spec.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-04",
+      "owner": "junior-assistant-director",
+      "task": "Assign timecoded first/last shot frames, eyelines, scene assets and prop registry",
+      "dependencies": [
+        "V22-02"
+      ],
+      "deliverables": [
+        "plans/30s_shot_breakdown.json",
+        "plans/asset_registry.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-05",
+      "owner": "character-artist",
+      "task": "Make one Ava/Noor comparison proof with continuous mouth-corner loops and natural human hand topology; preserve cast identity",
+      "dependencies": [
+        "V22-03"
+      ],
+      "deliverables": [
+        "models/new_base_ava.glb",
+        "lookdev/ava_3angle.png"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-06",
+      "owner": "animator-3d",
+      "task": "Design 2s natural grasp and weight-transfer proof using stable skeleton and named hand IK contact points",
+      "dependencies": [
+        "V22-03"
+      ],
+      "deliverables": [
+        "motion/hand_contact_targets.json",
+        "previews/interaction_2s.mp4"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-07",
+      "owner": "technical-director",
+      "task": "Validate GLB and Godot import; render repeatable side/front/3-4 evidence and collision sweep",
+      "dependencies": [
+        "V22-05",
+        "V22-06"
+      ],
+      "deliverables": [
+        "qa/native_godot_import.json",
+        "qa/rig_validation.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-08",
+      "owner": "originality-editor",
+      "task": "Review audience hook, character-specific direction, and visual design uniqueness; generate a counter-proposal if generic",
+      "dependencies": [
+        "V22-02",
+        "V22-03"
+      ],
+      "deliverables": [
+        "reviews/originality_v22.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-09",
+      "owner": "independent-auditor",
+      "task": "Reject or pass motion+visual+native runtime evidence independently, inspect frames, spot defects",
+      "dependencies": [
+        "V22-07",
+        "V22-08"
+      ],
+      "deliverables": [
+        "reviews/independent_audit_v22.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-10",
+      "owner": "feedback-triage",
+      "task": "Route failed audit findings by root cause and severity; create regression tests / owner tasks",
+      "dependencies": [
+        "V22-09"
+      ],
+      "deliverables": [
+        "reviews/defect_routing_v22.json"
+      ],
+      "status": "blocked_by_dependency"
+    },
+    {
+      "id": "V22-11",
+      "owner": "executive-producer",
+      "task": "Run final quality gate, publish only approved creative result, version full source+tests",
+      "dependencies": [
+        "V22-09",
+        "V22-10"
+      ],
+      "deliverables": [
+        "reviews/producer_release_v22.json"
+      ],
+      "status": "blocked_by_dependency"
+    }
+  ],
+  "file_ownership": {
+    "models/**": "character-artist",
+    "motion/**": "animator-3d",
+    "qa/**": "technical-director",
+    "plans/**": "junior-assistant-director",
+    "reviews/**": "independent-auditor or feedback-triage (separate filenames)"
+  },
+  "parallel_groups": [
+    [
+      "V22-02",
+      "V22-03"
+    ],
+    [
+      "V22-04",
+      "V22-05",
+      "V22-06",
+      "V22-08"
+    ]
+  ]
+}

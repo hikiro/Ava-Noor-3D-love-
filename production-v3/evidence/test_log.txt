@@ -1,0 +1,2 @@
+$ python tests/test_producer.py
+TESTS PASS: 10 agent configurations, 11 task cards, dependency integrity, review gate HOLD behavior
