@@ -1,0 +1,13 @@
+{
+  "Ava_Noor_v21_MOUTH_REPAIR_GRIP.mp4": "0ad27ebbcbf1db77cab4fff192a73ad3317c2293a537164a8406ab3ec7af51c2",
+  "models/ava_MOUTH_GRIP_v2_1.glb": "be6d9bff720f59b06ed48fbe644ade2931c527607cbdc9726664b7a65d344008",
+  "models/noor_MOUTH_GRIP_v2_1.glb": "b119cee97ac2f943962310cf9025a4691584333b066fe90f967fcf7c9d69c850",
+  "raw/ALL_125_HAND_COLLISION_v21.json": "3e6fbb29fcd7443487b467d7ce312624dc2225866295df13371bd3088f1b25ab",
+  "raw/mouth_comparison_v21.json": "9e3125af9afb95ed74a6cbd9abf1a17e44827fdef64f5f5e34280bfb287f8574",
+  "raw/validate_v21.py": "cde60b0ccdcf846b33f2f9cdad015a2fef59ed0ac9dd976c61d0daba1814d058",
+  "raw/validation_v21.json": "ad31174c4bf287be30bc1c1023c7d98726ed39c270f21187c29cc958703b0780",
+  "v21_evidence.json": "e7c24c40bf6d36e91d27deb1c46061b19c03cf32edf355f4efcf72c3ef56c58d",
+  "visuals/CONTACT_V21_DETAIL.png": "bed98095438eaaeb1c197efdd3790ec2c245fa439c9552078df25018fdd04e36",
+  "visuals/MOUTH_BEFORE_AFTER_v21.png": "b2121ca73a390b6af075fcc41648ae336a3731bf8ca4abce81ffa0d57ca18551",
+  "visuals/SIX_POSE_V21_INSPECTION.png": "4b440dc04fea19f2ceb9deedca9d7b15b6c9d3655216a8bfcb1781c9b513c84d"
+}

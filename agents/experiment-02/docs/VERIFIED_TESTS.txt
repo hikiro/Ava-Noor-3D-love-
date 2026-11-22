@@ -1,0 +1,18 @@
+test_01_two_processes_have_different_system_prompts_and_images (test_local_integration.Integration.test_01_two_processes_have_different_system_prompts_and_images) ... ok
+test_02_private_memory_is_role_scoped_and_persists (test_local_integration.Integration.test_02_private_memory_is_role_scoped_and_persists) ... ok
+test_03_public_router_never_reads_or_returns_private_assessment (test_local_integration.Integration.test_03_public_router_never_reads_or_returns_private_assessment) ... ok
+test_04_seal_can_only_open_with_owner_private_key (test_local_integration.Integration.test_04_seal_can_only_open_with_owner_private_key) ... ok
+test_05_modified_evidence_refuses_execution (test_local_integration.Integration.test_05_modified_evidence_refuses_execution) ... ok
+test_06_malformed_response_fails_closed_without_leak (test_local_integration.Integration.test_06_malformed_response_fails_closed_without_leak) ... ok
+test_07_do_not_overwrite_run_or_autoapprove (test_local_integration.Integration.test_07_do_not_overwrite_run_or_autoapprove) ... ok
+test_08_model_endpoint_is_local_only (test_local_integration.Integration.test_08_model_endpoint_is_local_only) ... ok
+test_09_sealed_reports_have_unique_iv_and_ciphertext (test_local_integration.Integration.test_09_sealed_reports_have_unique_iv_and_ciphertext) ... ok
+test_10_learning_proposals_remain_pending (test_local_integration.Integration.test_10_learning_proposals_remain_pending) ... ok
+test_11_no_worker_can_claim_verified_real_inference_in_mock_mode (test_local_integration.Integration.test_11_no_worker_can_claim_verified_real_inference_in_mock_mode) ... ok
+test_12_no_owner_private_key_in_project (test_local_integration.Integration.test_12_no_owner_private_key_in_project) ... ok
+test_13_local_key_bootstrap_is_owner_held_and_idempotent (test_local_integration.Integration.test_13_local_key_bootstrap_is_owner_held_and_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 27.075s
+
+OK
