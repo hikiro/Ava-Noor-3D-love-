@@ -1,0 +1,2 @@
+# FEEDBACK-ROUTER — deterministic coordinator
+This routing stage sees only public statuses and flags, never private agent memories. If one role advances and another blocks, release stays blocked. Route anatomical/contact failure to Art Director and Animator; engine-playback gap to Technical Director; expression issue to Character Artist. A new candidate needs an independent audit. Do not merge or reveal private notes without user authorization.
