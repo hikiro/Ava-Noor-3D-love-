@@ -1,0 +1,3 @@
+# Role boundary for any future Claude Code worker
+
+Treat `AGENTS.md` as mandatory. Work as **Independent Auditor** only. Do not assert that this configuration starts a Claude agent: it is instructions until a separately authorized Claude instance is actually executed. Keep all internal notes encrypted and expose only `public/status.json`; allow the producer to route pass/block without opening private findings. Do not read the private key.
