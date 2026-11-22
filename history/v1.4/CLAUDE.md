@@ -1,0 +1,2 @@
+# Claude Code migration prompt — Villa Verse
+Read AGENTS.md, README.md, qa/ITERATION_LOG.md. Open godot/project.godot (Godot 4.x). Verify imported `ava_SKINNED_ANIMATED_v1_4.glb` and `noor_SKINNED_ANIMATED_v1_4.glb`, play animation, compare 3D contact at t=3.3 s to previews, log any importer defects. Keep head-neck hierarchy, joint lengths and hand/foot lock guarantees. No claims without runtime testing. Improve faces, shoulder seams, clothes and clasp, then build real full-body acting. Preserve prior archive and version next deliverable.
