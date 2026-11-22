@@ -1,0 +1,7 @@
+# VILLA VERSE v1.8 — directions for the next agent
+
+READ `AGENTS.md`, `README.md`, and `qa/ITERATION_LOG.md` first. Build on v1.8, never discard the prior archive or original character designs. The active authoring script is `source/build_v18.py`. New models have 43 bones, 8 morph shapes, and 16 rows of sewn circumferential topology per elbow; the original fully reproducible inputs are in `models/base` and older histories in `archive/v1_7_COMPLETE_HANDOVER.zip`.
+
+Maintain head/neck/torso connections, stable anatomical lengths, natural movement directions, balanced feet, measured hand motion, full-timeline visual QC and honest test counts. In particular, **never overwrite weights at an existing joined seam**: preserve v1.7 weights at the cut and fade into new weights over 45mm. Test bending by orientation, compressed area and edge stretching, not mesh manifold alone.
+
+Do NOT label this production-ready. Remaining problems: unnatural elbow region and shoulder material, fingers intersect during grasp, simplistic visual model, no true speech timing, and Godot editor not yet run. The bundled Godot import validation source is not evidence it was run. Any new update must append actual actions/tests/failures and preserve a full versioned handover. No unsupported claims of 20 artistic cycles or 100 inspected animation examples.
