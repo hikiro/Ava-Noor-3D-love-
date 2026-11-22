@@ -1,0 +1,17 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "width": 540,
+            "height": 960,
+            "r_frame_rate": "24/1",
+            "duration": "5.208333",
+            "nb_frames": "125"
+        }
+    ]
+}
