@@ -1,0 +1,500 @@
+{
+  "key": "noor",
+  "old_bones": 23,
+  "new_bones": 43,
+  "morphs": [
+    "blink",
+    "concern",
+    "soft_smile",
+    "jaw_open",
+    "viseme_O",
+    "viseme_EE",
+    "cloth_reach",
+    "cloth_breathe"
+  ],
+  "vertices": 46197,
+  "triangles": 85910,
+  "duration_s": 5.199999809265137,
+  "joint_names": [
+    "root",
+    "hips",
+    "spine_lower",
+    "spine_chest",
+    "neck_base",
+    "neck_top",
+    "head",
+    "upper_leg_L",
+    "knee_L",
+    "ankle_L",
+    "foot_L",
+    "shoulder_L",
+    "elbow_L",
+    "wrist_L",
+    "hand_L",
+    "upper_leg_R",
+    "knee_R",
+    "ankle_R",
+    "foot_R",
+    "shoulder_R",
+    "elbow_R",
+    "wrist_R",
+    "hand_R",
+    "L_finger0_base",
+    "L_finger0_tip",
+    "L_finger1_base",
+    "L_finger1_tip",
+    "L_finger2_base",
+    "L_finger2_tip",
+    "L_finger3_base",
+    "L_finger3_tip",
+    "L_thumb_prox",
+    "L_thumb_tip",
+    "R_finger0_base",
+    "R_finger0_tip",
+    "R_finger1_base",
+    "R_finger1_tip",
+    "R_finger2_base",
+    "R_finger2_tip",
+    "R_finger3_base",
+    "R_finger3_tip",
+    "R_thumb_prox",
+    "R_thumb_tip"
+  ],
+  "parents": {
+    "root": null,
+    "hips": "root",
+    "spine_lower": "hips",
+    "spine_chest": "spine_lower",
+    "neck_base": "spine_chest",
+    "neck_top": "neck_base",
+    "head": "neck_top",
+    "upper_leg_L": "hips",
+    "knee_L": "upper_leg_L",
+    "ankle_L": "knee_L",
+    "foot_L": "ankle_L",
+    "shoulder_L": "spine_chest",
+    "elbow_L": "shoulder_L",
+    "wrist_L": "elbow_L",
+    "hand_L": "wrist_L",
+    "upper_leg_R": "hips",
+    "knee_R": "upper_leg_R",
+    "ankle_R": "knee_R",
+    "foot_R": "ankle_R",
+    "shoulder_R": "spine_chest",
+    "elbow_R": "shoulder_R",
+    "wrist_R": "elbow_R",
+    "hand_R": "wrist_R",
+    "L_finger0_base": "hand_L",
+    "L_finger0_tip": "L_finger0_base",
+    "L_finger1_base": "hand_L",
+    "L_finger1_tip": "L_finger1_base",
+    "L_finger2_base": "hand_L",
+    "L_finger2_tip": "L_finger2_base",
+    "L_finger3_base": "hand_L",
+    "L_finger3_tip": "L_finger3_base",
+    "L_thumb_prox": "hand_L",
+    "L_thumb_tip": "L_thumb_prox",
+    "R_finger0_base": "hand_R",
+    "R_finger0_tip": "R_finger0_base",
+    "R_finger1_base": "hand_R",
+    "R_finger1_tip": "R_finger1_base",
+    "R_finger2_base": "hand_R",
+    "R_finger2_tip": "R_finger2_base",
+    "R_finger3_base": "hand_R",
+    "R_finger3_tip": "R_finger3_base",
+    "R_thumb_prox": "hand_R",
+    "R_thumb_tip": "R_thumb_prox"
+  },
+  "source_mesh": "v1.5 frozen vertex arrays",
+  "max_cloth_reach_delta_m": 0.019999999552965164,
+  "mouth_neutral": "shut lips, dark inner membrane",
+  "status": "experimental, no Blender/Godot runtime verification",
+  "version": "2.1",
+  "mesh_health": {
+    "connected_surface_components": 1,
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_m3": 0.02686362303816194,
+    "removed_prior_mesh_parts": [
+      "inner_top_014",
+      "jacket_back_shell_016",
+      "L_continuous_deltoid_bicep_v15",
+      "L_armpit_skin_bridge_v15",
+      "L_continuous_forearm_v15",
+      "L_wrist_transition_v15",
+      "R_continuous_deltoid_bicep_v15",
+      "R_armpit_skin_bridge_v15",
+      "R_continuous_forearm_v15",
+      "R_wrist_transition_v15",
+      "white_top_waist_extension_v15"
+    ],
+    "retained_source_vertices": 17426,
+    "new_upperbody_vertices": 15869,
+    "new_upperbody_triangles": 31734,
+    "total_vertices": 45015,
+    "total_triangles": 89602,
+    "max_influences_per_vertex": 4,
+    "continuous_hands": true,
+    "removed_discrete_hand_parts": [
+      "L_hand_palm_v14",
+      "L_hand_knuckle_v14",
+      "L_finger0_prox_v14",
+      "L_finger0_dist_v14",
+      "L_finger0_nail_v14",
+      "L_finger1_prox_v14",
+      "L_finger1_dist_v14",
+      "L_finger1_nail_v14",
+      "L_finger2_prox_v14",
+      "L_finger2_dist_v14",
+      "L_finger2_nail_v14",
+      "L_finger3_prox_v14",
+      "L_finger3_dist_v14",
+      "L_finger3_nail_v14",
+      "L_thumb_prox_v14",
+      "L_thumb_tip_v14",
+      "R_hand_palm_v14",
+      "R_hand_knuckle_v14",
+      "R_finger0_prox_v14",
+      "R_finger0_dist_v14",
+      "R_finger0_nail_v14",
+      "R_finger1_prox_v14",
+      "R_finger1_dist_v14",
+      "R_finger1_nail_v14",
+      "R_finger2_prox_v14",
+      "R_finger2_dist_v14",
+      "R_finger2_nail_v14",
+      "R_finger3_prox_v14",
+      "R_finger3_dist_v14",
+      "R_finger3_nail_v14",
+      "R_thumb_prox_v14",
+      "R_thumb_tip_v14"
+    ],
+    "wrist_weld": {
+      "sides": {
+        "L": {
+          "forearm_boundary_vertices": 107,
+          "hand_boundary_vertices": 171,
+          "support_loops": 4,
+          "wrist_transition_m": 0.06346988764044947,
+          "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+          "new_faces": 1134,
+          "crop_removed_faces": 3060
+        },
+        "R": {
+          "forearm_boundary_vertices": 103,
+          "hand_boundary_vertices": 171,
+          "support_loops": 4,
+          "wrist_transition_m": 0.06346988764044947,
+          "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+          "new_faces": 1098,
+          "crop_removed_faces": 3032
+        }
+      },
+      "watertight": true,
+      "winding_consistent": true,
+      "winding_before_repair": true,
+      "smooth_digit_weight_vertices": {
+        "L": 7436,
+        "R": 7468
+      },
+      "vertices": 46197,
+      "faces": 85910,
+      "limitations": [
+        "Skinning is procedural, not manually sculpted",
+        "Mesh union does not prove that fingers wrap the other hand correctly"
+      ]
+    }
+  },
+  "source_model_version": "v1.6, unchanged 43-joint rig",
+  "glb": "noor_MOUTH_GRIP_v2_1.glb",
+  "elbow_retopology": {
+    "L": {
+      "cut_height_m": 1.1434816853932586,
+      "seam_vertex_count": 107,
+      "ring_count": 16,
+      "clipped_source_faces": 3567,
+      "retopo_triangles": 3317,
+      "elbow_position_m": [
+        -0.24548,
+        1.1074700000000002,
+        0.0085
+      ],
+      "wrist_position_m": [
+        -0.25964,
+        0.87993,
+        0.05098
+      ],
+      "support_loops_near_joint": 7
+    },
+    "R": {
+      "cut_height_m": 1.1434816853932586,
+      "seam_vertex_count": 103,
+      "ring_count": 16,
+      "clipped_source_faces": 3589,
+      "retopo_triangles": 3193,
+      "elbow_position_m": [
+        0.24548,
+        1.1074700000000002,
+        0.0085
+      ],
+      "wrist_position_m": [
+        0.25964,
+        0.87993,
+        0.05098
+      ],
+      "support_loops_near_joint": 7
+    }
+  },
+  "modeling_limit": "Procedural ring topology, not sculpted/manual anatomical elbow or production skin weights",
+  "hand_geometry": {
+    "L": {
+      "watertight": true,
+      "components": 1,
+      "volume_m3": 0.0002377702028913539,
+      "vertices": 7436,
+      "triangles": 14868,
+      "voxel_m": 0.0022521573033707867,
+      "finger_info": [
+        {
+          "index": 0,
+          "root": [
+            -0.27947086095809937,
+            0.8312423653467585,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            -0.27947086095809937,
+            0.804155055234399,
+            0.07917157303370786
+          ],
+          "tip": [
+            -0.27947086095809937,
+            0.7810806799535002,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8220289945602417,
+          "bone_tip_y": 0.7994272112846375
+        },
+        {
+          "index": 1,
+          "root": [
+            -0.26625266671180725,
+            0.830937606798022,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            -0.26625266671180725,
+            0.7977694719665613,
+            0.07917157303370786
+          ],
+          "tip": [
+            -0.26625266671180725,
+            0.7695151348879096,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8217242360115051,
+          "bone_tip_y": 0.793680727481842
+        },
+        {
+          "index": 2,
+          "root": [
+            -0.25303447246551514,
+            0.8309610910280635,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            -0.25303447246551514,
+            0.7994513629381759,
+            0.07917157303370786
+          ],
+          "tip": [
+            -0.25303447246551514,
+            0.7726097427134567,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8217477202415466,
+          "bone_tip_y": 0.7941989898681641
+        },
+        {
+          "index": 3,
+          "root": [
+            -0.23981624841690063,
+            0.8314239806993892,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            -0.23981624841690063,
+            0.8065478795757937,
+            0.07917157303370786
+          ],
+          "tip": [
+            -0.23981624841690063,
+            0.7853571267668049,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8222106099128723,
+          "bone_tip_y": 0.802079439163208
+        }
+      ],
+      "boundary": "Hand is one watertight connected surface, attached visually at wrist, not welded to the upper body",
+      "limitation": "Procedural approximated hand with existing two-phalange finger bones, not sculpted anatomy."
+    },
+    "R": {
+      "watertight": true,
+      "components": 1,
+      "volume_m3": 0.0002377322621290377,
+      "vertices": 7468,
+      "triangles": 14932,
+      "voxel_m": 0.0022521573033707867,
+      "finger_info": [
+        {
+          "index": 0,
+          "root": [
+            0.23981624841690063,
+            0.8312423653467585,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            0.23981624841690063,
+            0.804155055234399,
+            0.07917157303370786
+          ],
+          "tip": [
+            0.23981624841690063,
+            0.7810806799535002,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8220289945602417,
+          "bone_tip_y": 0.7994272112846375
+        },
+        {
+          "index": 1,
+          "root": [
+            0.25303447246551514,
+            0.830937606798022,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            0.25303447246551514,
+            0.7977694719665613,
+            0.07917157303370786
+          ],
+          "tip": [
+            0.25303447246551514,
+            0.7695151348879096,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8217242360115051,
+          "bone_tip_y": 0.793680727481842
+        },
+        {
+          "index": 2,
+          "root": [
+            0.26625266671180725,
+            0.8309610910280635,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            0.26625266671180725,
+            0.7994513629381759,
+            0.07917157303370786
+          ],
+          "tip": [
+            0.26625266671180725,
+            0.7726097427134567,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8217477202415466,
+          "bone_tip_y": 0.7941989898681641
+        },
+        {
+          "index": 3,
+          "root": [
+            0.279470831155777,
+            0.8314239806993892,
+            0.06893449438202247
+          ],
+          "knuckle": [
+            0.279470831155777,
+            0.8065478795757937,
+            0.07917157303370786
+          ],
+          "tip": [
+            0.279470831155777,
+            0.7853571267668049,
+            0.08429011235955056
+          ],
+          "bone_base_y": 0.8222106099128723,
+          "bone_tip_y": 0.802079439163208
+        }
+      ],
+      "boundary": "Hand is one watertight connected surface, attached visually at wrist, not welded to the upper body",
+      "limitation": "Procedural approximated hand with existing two-phalange finger bones, not sculpted anatomy."
+    }
+  },
+  "collision_aware_scene_offset_m": {
+    "ava": [
+      -0.48,
+      0,
+      0
+    ],
+    "noor": [
+      0.48,
+      0,
+      0.038
+    ]
+  },
+  "caveats": [
+    "No native Godot import/playback verified",
+    "No final artistic approval",
+    "Digit flexion remains procedural; no true interlocked grasp or force model",
+    "Mouth cavity not rebuilt topologically; no audio-driven phoneme synchronization"
+  ],
+  "wrist_weld": {
+    "sides": {
+      "L": {
+        "forearm_boundary_vertices": 107,
+        "hand_boundary_vertices": 171,
+        "support_loops": 4,
+        "wrist_transition_m": 0.06346988764044947,
+        "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+        "new_faces": 1134,
+        "crop_removed_faces": 3060
+      },
+      "R": {
+        "forearm_boundary_vertices": 103,
+        "hand_boundary_vertices": 171,
+        "support_loops": 4,
+        "wrist_transition_m": 0.06346988764044947,
+        "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+        "new_faces": 1098,
+        "crop_removed_faces": 3032
+      }
+    },
+    "watertight": true,
+    "winding_consistent": true,
+    "winding_before_repair": true,
+    "smooth_digit_weight_vertices": {
+      "L": 7436,
+      "R": 7468
+    },
+    "vertices": 46197,
+    "faces": 85910,
+    "limitations": [
+      "Skinning is procedural, not manually sculpted",
+      "Mesh union does not prove that fingers wrap the other hand correctly"
+    ]
+  },
+  "open_issues": [
+    "Godot native editor/animation import not tested here",
+    "Genuine interlocking handhold and inside-finger self-collisions require visual/mesh inspection",
+    "Simplified face/hair/garments remain below final lookdev standard"
+  ],
+  "mouth_corrective": {
+    "previous": "v1.6 cavity vertical dilation 4.6x jaw, 3.3x O plus lower-lip 19mm displacement",
+    "new": "jaw cavity dilation 1.50x, O 0.65x; lower lip jaw 14mm at full morph weight; no unbounded scaling",
+    "target_limit_local_mouth_edge_stretch": "<=2.5x at 125 encoded frames",
+    "note": "Not speech-synchronized to audio; sampled two-syllable animation only"
+  },
+  "grip_profile": "staggered"
+}

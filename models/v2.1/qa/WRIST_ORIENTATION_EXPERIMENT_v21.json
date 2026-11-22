@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    {
+      "wrist_bias_rad": -0.3,
+      "contact_nearest_vertices_m": 0.01115877974607352
+    },
+    {
+      "wrist_bias_rad": -0.16,
+      "contact_nearest_vertices_m": 0.011717805505877857
+    },
+    {
+      "wrist_bias_rad": 0.0,
+      "contact_nearest_vertices_m": 0.012342985518002572
+    },
+    {
+      "wrist_bias_rad": 0.16,
+      "contact_nearest_vertices_m": 0.012106524189532718
+    },
+    {
+      "wrist_bias_rad": 0.3,
+      "contact_nearest_vertices_m": 0.00498140401686406
+    }
+  ],
+  "evaluated_pose_time_s": 3.4,
+  "collision_test": "not run in this experiment; proximity is NOT collision-free proof"
+}
