@@ -1,0 +1,14 @@
+{
+  "role": "producer",
+  "verdict": "PROPOSE_INTERNAL_RELEASE_CANDIDATE",
+  "confidence": 0.73,
+  "public_flags": [
+    "TECH_GATE_PASSED",
+    "ENGINE_UNVERIFIED"
+  ],
+  "backend": "policy",
+  "is_real_language_model": false,
+  "private_review": "encrypted/not_opened",
+  "time_utc": "2026-11-21T06:35:33.146972+00:00",
+  "sealed_sha256": "b2f4edd6c25ece33c352bedc68ee15e38bcb8961d5fd546a625e2e6e096d660b"
+}

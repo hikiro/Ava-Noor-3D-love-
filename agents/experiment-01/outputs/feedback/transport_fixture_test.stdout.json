@@ -1,0 +1,1 @@
+{"mock_transport": "PASS", "distinct_http_requests": 2, "role_system_prompts_isolated_at_request": true, "private_memory_files_separate": true, "model_replies": "FIXTURE, NOT AI", "real_language_model_used": false}

@@ -1,0 +1,37 @@
+{
+  "experiment": "VV_MULTI_AGENT_EXP01",
+  "baseline": "Villa Verse v2.1",
+  "verified_metrics": {
+    "structural_checks": 43,
+    "structural_passed": 43,
+    "hand_collision_frames_checked": 125,
+    "hand_intersection_count": 0,
+    "hold_frames_examined": "75\u2013100",
+    "nearest_hand_vertices_median_mm": 12.343,
+    "mouth_stretch_v21": {
+      "ava": 2.071,
+      "noor": 2.179
+    },
+    "mouth_stretch_v20": {
+      "ava": 5.471,
+      "noor": 6.358
+    },
+    "video_frames": 125,
+    "video_fps": 24.0,
+    "width": 540,
+    "height": 960,
+    "native_godot_playback_verified": false
+  },
+  "documented_open_visual_issues": [
+    "natural interlocking hand grasp not visually approved",
+    "simplified finger and facial anatomy",
+    "detached-looking lip layers",
+    "Godot native playback not tested"
+  ],
+  "source_checksums": {
+    "qa/validation_v21.json": "ad31174c4bf287be30bc1c1023c7d98726ed39c270f21187c29cc958703b0780",
+    "qa/ALL_125_HAND_COLLISION_v21.json": "3e6fbb29fcd7443487b467d7ce312624dc2225866295df13371bd3088f1b25ab",
+    "qa/mouth_comparison_v21.json": "9e3125af9afb95ed74a6cbd9abf1a17e44827fdef64f5f5e34280bfb287f8574",
+    "previews/Ava_Noor_v21_MOUTH_REPAIR_GRIP.mp4": "0ad27ebbcbf1db77cab4fff192a73ad3317c2293a537164a8406ab3ec7af51c2"
+  }
+}

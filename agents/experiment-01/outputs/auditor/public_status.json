@@ -1,0 +1,15 @@
+{
+  "role": "auditor",
+  "verdict": "BLOCK_PUBLIC_RELEASE",
+  "confidence": 0.96,
+  "public_flags": [
+    "CONTACT_VISUAL_UNAPPROVED",
+    "GODOT_NOT_TESTED",
+    "FACIAL_ART_DEFECT"
+  ],
+  "backend": "policy",
+  "is_real_language_model": false,
+  "private_review": "encrypted/not_opened",
+  "time_utc": "2026-11-21T06:35:33.162972+00:00",
+  "sealed_sha256": "d9c3540b638ccdd4fb9ad32c74493860cbd38fe7066633bae33daa6740dc83d5"
+}

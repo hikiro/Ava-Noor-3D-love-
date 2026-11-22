@@ -1,0 +1,776 @@
+{
+  "version": "2.1",
+  "checks": [
+    {
+      "check": "ava independent GLB parser",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "ava original 43 bone armature",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava eight facial/clothing morph targets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava preserved animated rotation channels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava neck to head parenting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava finite vertex values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava normalized skin weights",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava all skin joint indices valid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava all skinned surfaces watertight",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava consistent face winding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava both wrist bridges present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava topology has no external old cap geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava finite skinning all 125 frames",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "ava planted feet stay under 1mm drift all 125 frames",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "ava parent-child lengths preserved all 125 frames",
+      "pass": true,
+      "detail": 3.5735303605122226e-16
+    },
+    {
+      "check": "ava new wrist support edges never stretch beyond 2.5x",
+      "pass": true,
+      "detail": 2.0380325317382812
+    },
+    {
+      "check": "noor independent GLB parser",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "noor original 43 bone armature",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor eight facial/clothing morph targets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor preserved animated rotation channels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor neck to head parenting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor finite vertex values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor normalized skin weights",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor all skin joint indices valid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor all skinned surfaces watertight",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor consistent face winding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor both wrist bridges present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor topology has no external old cap geometry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor finite skinning all 125 frames",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "noor planted feet stay under 1mm drift all 125 frames",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "noor parent-child lengths preserved all 125 frames",
+      "pass": true,
+      "detail": 3.2612801348363973e-16
+    },
+    {
+      "check": "noor new wrist support edges never stretch beyond 2.5x",
+      "pass": true,
+      "detail": 2.1108806133270264
+    },
+    {
+      "check": "no opposing finger/palm collision at 26 encoded frame samples",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "last encoded frame fingers within 4mm",
+      "pass": true,
+      "detail": 0.002008251261315577
+    },
+    {
+      "check": "no collisions including wrist bridges and forearms at sampled frames",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "ava revised mouth cavity max stretch under 2.5x across 125 frames",
+      "pass": true,
+      "detail": {
+        "old": 5.471490859985352,
+        "new": 2.0713343620300293
+      }
+    },
+    {
+      "check": "ava improved mouth cavity over v2.0",
+      "pass": true,
+      "detail": {
+        "old": 5.471490859985352,
+        "new": 2.0713343620300293
+      }
+    },
+    {
+      "check": "noor revised mouth cavity max stretch under 2.5x across 125 frames",
+      "pass": true,
+      "detail": {
+        "old": 6.357664585113525,
+        "new": 2.1786820888519287
+      }
+    },
+    {
+      "check": "noor improved mouth cavity over v2.0",
+      "pass": true,
+      "detail": {
+        "old": 6.357664585113525,
+        "new": 2.1786820888519287
+      }
+    },
+    {
+      "check": "all 125 encoded frames opposing hand surface triangle intersections",
+      "pass": true,
+      "detail": {
+        "frames_checked": 125,
+        "scope": "opposing hands only"
+      }
+    },
+    {
+      "check": "MP4 125 fully decoded frames",
+      "pass": true,
+      "detail": 125
+    },
+    {
+      "check": "MP4 vertical 540x960",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "MP4 frames show actual scene changes",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "pass_count": 43,
+  "total_count": 43,
+  "failures": [],
+  "measured": {
+    "ava": {
+      "mesh_vertices": 41412,
+      "triangles": 76394,
+      "mesh_components": 93,
+      "wrist_support_edges": 3911,
+      "wrist_support_max_edge_stretch": 2.0380325317382812,
+      "global_max_edge_stretch": 3.3177506923675537,
+      "foot_drift_max_m": 0.0,
+      "bone_length_error_m": 3.5735303605122226e-16,
+      "finger_vertices_reweighted": {
+        "L": 7430,
+        "R": 7472
+      },
+      "previous_v19_vertices": 40234,
+      "wrist_metadata": {
+        "sides": {
+          "L": {
+            "forearm_boundary_vertices": 103,
+            "hand_boundary_vertices": 171,
+            "support_loops": 4,
+            "wrist_transition_m": 0.062000000000000055,
+            "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+            "new_faces": 1098,
+            "crop_removed_faces": 3032
+          },
+          "R": {
+            "forearm_boundary_vertices": 106,
+            "hand_boundary_vertices": 171,
+            "support_loops": 4,
+            "wrist_transition_m": 0.062000000000000055,
+            "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+            "new_faces": 1125,
+            "crop_removed_faces": 3053
+          }
+        },
+        "watertight": true,
+        "winding_consistent": true,
+        "winding_before_repair": true,
+        "smooth_digit_weight_vertices": {
+          "L": 7430,
+          "R": 7472
+        },
+        "vertices": 41412,
+        "faces": 76394,
+        "limitations": [
+          "Skinning is procedural, not manually sculpted",
+          "Mesh union does not prove that fingers wrap the other hand correctly"
+        ]
+      }
+    },
+    "noor": {
+      "mesh_vertices": 46197,
+      "triangles": 85910,
+      "mesh_components": 105,
+      "wrist_support_edges": 3924,
+      "wrist_support_max_edge_stretch": 2.1108806133270264,
+      "global_max_edge_stretch": 3.4786198139190674,
+      "foot_drift_max_m": 0.0,
+      "bone_length_error_m": 3.2612801348363973e-16,
+      "finger_vertices_reweighted": {
+        "L": 7436,
+        "R": 7468
+      },
+      "previous_v19_vertices": 45015,
+      "wrist_metadata": {
+        "sides": {
+          "L": {
+            "forearm_boundary_vertices": 107,
+            "hand_boundary_vertices": 171,
+            "support_loops": 4,
+            "wrist_transition_m": 0.06346988764044947,
+            "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+            "new_faces": 1134,
+            "crop_removed_faces": 3060
+          },
+          "R": {
+            "forearm_boundary_vertices": 103,
+            "hand_boundary_vertices": 171,
+            "support_loops": 4,
+            "wrist_transition_m": 0.06346988764044947,
+            "skin_weights": "dense 43-bone linear blend, top-4 normalized",
+            "new_faces": 1098,
+            "crop_removed_faces": 3032
+          }
+        },
+        "watertight": true,
+        "winding_consistent": true,
+        "winding_before_repair": true,
+        "smooth_digit_weight_vertices": {
+          "L": 7436,
+          "R": 7468
+        },
+        "vertices": 46197,
+        "faces": 85910,
+        "limitations": [
+          "Skinning is procedural, not manually sculpted",
+          "Mesh union does not prove that fingers wrap the other hand correctly"
+        ]
+      }
+    },
+    "contact": {
+      "palm_samples": 26,
+      "distal_arm_samples": 5,
+      "noor_depth_offset_m": 0.039,
+      "min_gap_final_m": 0.002008251261315577,
+      "gap_at_3_4_s_m": 0.012342985518002572,
+      "palm_timeline": [
+        {
+          "time_s": 0.0,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.33266162470562166,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 0
+        },
+        {
+          "time_s": 0.20833333333333334,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.33266162470562166,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 5
+        },
+        {
+          "time_s": 0.4166666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.33266162470562166,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 10
+        },
+        {
+          "time_s": 0.625,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.33266162470562166,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 15
+        },
+        {
+          "time_s": 0.8333333333333334,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.32597551532450153,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 20
+        },
+        {
+          "time_s": 1.0416666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.258946207741036,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 25
+        },
+        {
+          "time_s": 1.25,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.14921679745827574,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 30
+        },
+        {
+          "time_s": 1.4583333333333333,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.057529226998722496,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 35
+        },
+        {
+          "time_s": 1.6666666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.01190073803250698,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 40
+        },
+        {
+          "time_s": 1.875,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.01141065625496401,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 45
+        },
+        {
+          "time_s": 2.0833333333333335,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.01577632588335043,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 50
+        },
+        {
+          "time_s": 2.2916666666666665,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.02004583191857591,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 55
+        },
+        {
+          "time_s": 2.5,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.020673806704672802,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 60
+        },
+        {
+          "time_s": 2.7083333333333335,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.017228183353615745,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 65
+        },
+        {
+          "time_s": 2.9166666666666665,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012168084184185144,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 70
+        },
+        {
+          "time_s": 3.125,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.011804743069053132,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 75
+        },
+        {
+          "time_s": 3.3333333333333335,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012315897648891894,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 80
+        },
+        {
+          "time_s": 3.5416666666666665,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012342985518002572,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 85
+        },
+        {
+          "time_s": 3.75,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012342985518002572,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 90
+        },
+        {
+          "time_s": 3.9583333333333335,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012342985518002572,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 95
+        },
+        {
+          "time_s": 4.166666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.012342985518002572,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 100
+        },
+        {
+          "time_s": 4.375,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.011772193747484241,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 105
+        },
+        {
+          "time_s": 4.583333333333333,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.004675970970275577,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 110
+        },
+        {
+          "time_s": 4.791666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.0008994343961064178,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 115
+        },
+        {
+          "time_s": 5.0,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.001400058832664336,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 120
+        },
+        {
+          "time_s": 5.166666666666667,
+          "noor_dx_m": 0.0,
+          "noor_dz_m": 0.039,
+          "triangle_intersections": 0,
+          "nearest_vertices_m": 0.002008251261315577,
+          "triangles_ava": 12458,
+          "triangles_noor": 12386,
+          "frame": 124
+        }
+      ],
+      "arm_timeline": [
+        {
+          "time_s": 0.0,
+          "hits": 0,
+          "gap_m": 0.33266162470562166,
+          "triangles": [
+            14704,
+            14745
+          ],
+          "frame": 0
+        },
+        {
+          "time_s": 2.0833333333333335,
+          "hits": 0,
+          "gap_m": 0.01577632588335043,
+          "triangles": [
+            14704,
+            14745
+          ],
+          "frame": 50
+        },
+        {
+          "time_s": 3.375,
+          "hits": 0,
+          "gap_m": 0.012342657914872043,
+          "triangles": [
+            14704,
+            14745
+          ],
+          "frame": 81
+        },
+        {
+          "time_s": 4.75,
+          "hits": 0,
+          "gap_m": 0.0009570397482391913,
+          "triangles": [
+            14704,
+            14745
+          ],
+          "frame": 114
+        },
+        {
+          "time_s": 5.166666666666667,
+          "hits": 0,
+          "gap_m": 0.002008251261315577,
+          "triangles": [
+            14704,
+            14745
+          ],
+          "frame": 124
+        }
+      ]
+    },
+    "mouth_morph_comparison": {
+      "ava": {
+        "v20": {
+          "upper_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.1943126916885376,
+            "minimum_edge_ratio_x": 0.7838587760925293,
+            "worst_stretch_frame": 100,
+            "rest_min_edge_mm": 0.8208132982254028
+          },
+          "lower_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.1602602005004883,
+            "minimum_edge_ratio_x": 0.7508782148361206,
+            "worst_stretch_frame": 100,
+            "rest_min_edge_mm": 0.6977055668830872
+          },
+          "mouth_cavity_v16": {
+            "frames": 125,
+            "worst_stretch_x": 5.471490859985352,
+            "minimum_edge_ratio_x": 0.6736751794815063,
+            "worst_stretch_frame": 21,
+            "rest_min_edge_mm": 0.08578777313232422
+          }
+        },
+        "v21": {
+          "upper_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.1943126916885376,
+            "minimum_edge_ratio_x": 0.7603995203971863,
+            "worst_stretch_frame": 100,
+            "rest_min_edge_mm": 0.8208132982254028
+          },
+          "lower_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.1602602005004883,
+            "minimum_edge_ratio_x": 0.7220246195793152,
+            "worst_stretch_frame": 100,
+            "rest_min_edge_mm": 0.6977055668830872
+          },
+          "mouth_cavity_v16": {
+            "frames": 125,
+            "worst_stretch_x": 2.0713343620300293,
+            "minimum_edge_ratio_x": 0.7411287426948547,
+            "worst_stretch_frame": 21,
+            "rest_min_edge_mm": 0.08578777313232422
+          }
+        }
+      },
+      "noor": {
+        "v20": {
+          "upper_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.2878704071044922,
+            "minimum_edge_ratio_x": 0.7912406921386719,
+            "worst_stretch_frame": 96,
+            "rest_min_edge_mm": 0.8403162360191345
+          },
+          "lower_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.2466249465942383,
+            "minimum_edge_ratio_x": 0.7522087097167969,
+            "worst_stretch_frame": 96,
+            "rest_min_edge_mm": 0.7143213748931885
+          },
+          "mouth_cavity_v16": {
+            "frames": 125,
+            "worst_stretch_x": 6.357664585113525,
+            "minimum_edge_ratio_x": 0.6736751794815063,
+            "worst_stretch_frame": 18,
+            "rest_min_edge_mm": 0.08578777313232422
+          }
+        },
+        "v21": {
+          "upper_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.2878704071044922,
+            "minimum_edge_ratio_x": 0.7680070996284485,
+            "worst_stretch_frame": 96,
+            "rest_min_edge_mm": 0.8403162360191345
+          },
+          "lower_lip_contour_v15": {
+            "frames": 125,
+            "worst_stretch_x": 1.2466249465942383,
+            "minimum_edge_ratio_x": 0.7234082221984863,
+            "worst_stretch_frame": 96,
+            "rest_min_edge_mm": 0.7143213748931885
+          },
+          "mouth_cavity_v16": {
+            "frames": 125,
+            "worst_stretch_x": 2.1786820888519287,
+            "minimum_edge_ratio_x": 0.7411287426948547,
+            "worst_stretch_frame": 38,
+            "rest_min_edge_mm": 0.08578777313232422
+          }
+        }
+      }
+    },
+    "full_hand_collision_frames": 125,
+    "video_frames": 125
+  },
+  "engine_tested": false,
+  "limitations": [
+    "No Godot executable: Godot project/animation import NOT tested",
+    "Unresolved: contact remains mostly a touch/high-five, not verified as natural finger wrapping",
+    "Facial cavity mouth morph has reduced measured stretch but simplified lips still lack true mouth-corner anatomical topology",
+    "Opposing hand triangle collision covered all 125 encoded frames; wider distal arms sampled 5 frames; self-collision, clothing intersections and pressure grip not verified",
+    "Numerical triangle stretching does not establish beautiful animation, facial performance, or realistic anatomy"
+  ],
+  "actual_design_iterations": {
+    "wrist_topology_rebuilds": 0,
+    "mouth_morph_redesign_passes": 2,
+    "finger_curl_profiles_rendered": 4,
+    "wrist_orientation_variants_rendered": 5,
+    "rendered_full_v21_clips": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "experiment": "VV_EXP01",
+  "roles": [
+    "producer",
+    "auditor"
+  ],
+  "backends": {
+    "producer": "policy",
+    "auditor": "policy"
+  },
+  "real_llm_instances_executed": 0,
+  "producer_public_verdict": "PROPOSE_INTERNAL_RELEASE_CANDIDATE",
+  "auditor_public_verdict": "BLOCK_PUBLIC_RELEASE",
+  "disagreement_detected": true,
+  "public_release_status": "BLOCKED",
+  "public_flags": [
+    "CONTACT_VISUAL_UNAPPROVED",
+    "ENGINE_UNVERIFIED",
+    "FACIAL_ART_DEFECT",
+    "GODOT_NOT_TESTED",
+    "TECH_GATE_PASSED"
+  ],
+  "routed_tasks": [
+    {
+      "to": "Art Director + Animator",
+      "task": "Design independently inspected believable interlocking grasp, resolve hand-gap and finger anatomy",
+      "priority": "P0"
+    },
+    {
+      "to": "Technical Director",
+      "task": "Obtain native Godot import and animation-playback test evidence",
+      "priority": "P0"
+    },
+    {
+      "to": "Character Artist",
+      "task": "Correct detached-looking lip layers and improve facial topology",
+      "priority": "P1"
+    }
+  ],
+  "private_reasoning_accessed_by_router": false,
+  "simulated_policy_execution": true
+}

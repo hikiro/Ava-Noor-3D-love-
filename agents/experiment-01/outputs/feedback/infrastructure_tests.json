@@ -1,0 +1,92 @@
+{
+  "test_count": 20,
+  "passed": 20,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "producer cannot read auditor private memory",
+      "pass": true
+    },
+    {
+      "name": "auditor cannot read producer private memory",
+      "pass": true
+    },
+    {
+      "name": "producer can read own private memory",
+      "pass": true
+    },
+    {
+      "name": "auditor can read own private memory",
+      "pass": true
+    },
+    {
+      "name": "producer cannot modify evidence",
+      "pass": true
+    },
+    {
+      "name": "auditor cannot modify evidence",
+      "pass": true
+    },
+    {
+      "name": "producer cannot list auditor outputs",
+      "pass": true
+    },
+    {
+      "name": "auditor cannot list producer outputs",
+      "pass": true
+    },
+    {
+      "name": "producer cannot read auditor role instructions",
+      "pass": true
+    },
+    {
+      "name": "auditor cannot read producer role instructions",
+      "pass": true
+    },
+    {
+      "name": "separate role public status files",
+      "pass": true
+    },
+    {
+      "name": "opposed role recommendations detected",
+      "pass": true
+    },
+    {
+      "name": "auditor veto blocks public release",
+      "pass": true
+    },
+    {
+      "name": "feedback does not claim private reads",
+      "pass": true
+    },
+    {
+      "name": "no false AI instance claim",
+      "pass": true
+    },
+    {
+      "name": "repair work routed",
+      "pass": true
+    },
+    {
+      "name": "sealed report contains ciphertext not raw fields",
+      "pass": true
+    },
+    {
+      "name": "private unlock key outside distribution directory",
+      "pass": true
+    },
+    {
+      "name": "cryptographic roundtrip with synthetic sample",
+      "pass": true
+    },
+    {
+      "name": "model runtime availability honestly detected",
+      "pass": true
+    }
+  ],
+  "runtime": {
+    "ollama_local_online": false,
+    "genuine_llm_sessions_executed": 0
+  },
+  "private_reports_opened": false
+}
