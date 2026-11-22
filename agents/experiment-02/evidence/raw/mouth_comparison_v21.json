@@ -1,0 +1,98 @@
+{
+  "ava": {
+    "v20": {
+      "upper_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.1943126916885376,
+        "minimum_edge_ratio_x": 0.7838587760925293,
+        "worst_stretch_frame": 100,
+        "rest_min_edge_mm": 0.8208132982254028
+      },
+      "lower_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.1602602005004883,
+        "minimum_edge_ratio_x": 0.7508782148361206,
+        "worst_stretch_frame": 100,
+        "rest_min_edge_mm": 0.6977055668830872
+      },
+      "mouth_cavity_v16": {
+        "frames": 125,
+        "worst_stretch_x": 5.471490859985352,
+        "minimum_edge_ratio_x": 0.6736751794815063,
+        "worst_stretch_frame": 21,
+        "rest_min_edge_mm": 0.08578777313232422
+      }
+    },
+    "v21": {
+      "upper_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.1943126916885376,
+        "minimum_edge_ratio_x": 0.7603995203971863,
+        "worst_stretch_frame": 100,
+        "rest_min_edge_mm": 0.8208132982254028
+      },
+      "lower_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.1602602005004883,
+        "minimum_edge_ratio_x": 0.7220246195793152,
+        "worst_stretch_frame": 100,
+        "rest_min_edge_mm": 0.6977055668830872
+      },
+      "mouth_cavity_v16": {
+        "frames": 125,
+        "worst_stretch_x": 2.0713343620300293,
+        "minimum_edge_ratio_x": 0.7411287426948547,
+        "worst_stretch_frame": 21,
+        "rest_min_edge_mm": 0.08578777313232422
+      }
+    }
+  },
+  "noor": {
+    "v20": {
+      "upper_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.2878704071044922,
+        "minimum_edge_ratio_x": 0.7912406921386719,
+        "worst_stretch_frame": 96,
+        "rest_min_edge_mm": 0.8403162360191345
+      },
+      "lower_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.2466249465942383,
+        "minimum_edge_ratio_x": 0.7522087097167969,
+        "worst_stretch_frame": 96,
+        "rest_min_edge_mm": 0.7143213748931885
+      },
+      "mouth_cavity_v16": {
+        "frames": 125,
+        "worst_stretch_x": 6.357664585113525,
+        "minimum_edge_ratio_x": 0.6736751794815063,
+        "worst_stretch_frame": 18,
+        "rest_min_edge_mm": 0.08578777313232422
+      }
+    },
+    "v21": {
+      "upper_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.2878704071044922,
+        "minimum_edge_ratio_x": 0.7680070996284485,
+        "worst_stretch_frame": 96,
+        "rest_min_edge_mm": 0.8403162360191345
+      },
+      "lower_lip_contour_v15": {
+        "frames": 125,
+        "worst_stretch_x": 1.2466249465942383,
+        "minimum_edge_ratio_x": 0.7234082221984863,
+        "worst_stretch_frame": 96,
+        "rest_min_edge_mm": 0.7143213748931885
+      },
+      "mouth_cavity_v16": {
+        "frames": 125,
+        "worst_stretch_x": 2.1786820888519287,
+        "minimum_edge_ratio_x": 0.7411287426948547,
+        "worst_stretch_frame": 38,
+        "rest_min_edge_mm": 0.08578777313232422
+      }
+    }
+  }
+}

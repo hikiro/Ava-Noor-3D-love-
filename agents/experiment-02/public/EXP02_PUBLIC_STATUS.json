@@ -1,0 +1,11 @@
+{
+  "experiment": "Villa Verse Multi-Agent Experiment 02",
+  "phase": "Local model integration prepared",
+  "separate_local_llm_runs_completed_here": 0,
+  "deterministic_mock_integration_tests_passed": 13,
+  "model_server_available_here": false,
+  "public_release": "BLOCKED",
+  "godot_verified": false,
+  "owner_private_key_in_project_archive": false,
+  "next_evidence_needed": ["Two real Ollama model responses from separate role contexts", "Second run testing each role's own retained memory", "Recorded native Godot verification", "Independent visual approval"]
+}
