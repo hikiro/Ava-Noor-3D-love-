@@ -1,0 +1,6 @@
+*.glb binary
+*.mp4 binary
+*.gif binary
+*.png binary
+*.zip binary
+*.part[0-9][0-9][0-9] binary
