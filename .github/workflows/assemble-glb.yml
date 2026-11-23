@@ -1,11 +1,14 @@
-name: Verify and assemble Ava-Noor v2.1 GLBs
+name: Verify and assemble Ava-Noor v2.1 project assets
 
 on:
   push:
     paths:
       - "models/v2.1/parts/**"
+      - "models/v2.1/parts-extra/**"
       - "models/v2.1/PARTS_MANIFEST.json"
+      - "models/v2.1/EXTRA_ASSETS_MANIFEST.json"
       - "tools/reassemble_glb.py"
+      - "tools/reassemble_extra_assets.py"
       - ".github/workflows/assemble-glb.yml"
   workflow_dispatch:
 
@@ -20,14 +23,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Reconstruct and verify original model files
+      - name: Restore rig-source geometry and validate checksums
+        run: python tools/reassemble_extra_assets.py
+      - name: Restore final rigged GLBs and validate checksums
         run: python tools/reassemble_glb.py
-      - name: Publish GLBs
+      - name: Publish reconstructed models and source geometry
         uses: actions/upload-artifact@v4
         with:
-          name: Ava-Noor-v2.1-GLBs
+          name: Ava-Noor-v2.1-restored-assets
           path: |
             models/v2.1/godot/models/ava_MOUTH_GRIP_v2_1.glb
             models/v2.1/godot/models/noor_MOUTH_GRIP_v2_1.glb
+            models/v2.1/models/**/*.ply
+            models/v2.1/models/**/*.npz
+            models/v2.1/models/**/*.glb
           if-no-files-found: error
           retention-days: 30
