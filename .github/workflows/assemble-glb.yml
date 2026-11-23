@@ -1,0 +1,33 @@
+name: Verify and assemble Ava-Noor v2.1 GLBs
+
+on:
+  push:
+    paths:
+      - "models/v2.1/parts/**"
+      - "models/v2.1/PARTS_MANIFEST.json"
+      - "tools/reassemble_glb.py"
+      - ".github/workflows/assemble-glb.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Reconstruct and verify original model files
+        run: python tools/reassemble_glb.py
+      - name: Publish GLBs
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ava-Noor-v2.1-GLBs
+          path: |
+            models/v2.1/godot/models/ava_MOUTH_GRIP_v2_1.glb
+            models/v2.1/godot/models/noor_MOUTH_GRIP_v2_1.glb
+          if-no-files-found: error
+          retention-days: 30
