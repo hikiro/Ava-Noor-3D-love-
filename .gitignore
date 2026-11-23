@@ -1,0 +1,6 @@
+# Reassembled from tracked immutable parts
+/models/v2.1/godot/models/*_MOUTH_GRIP_v2_1.glb
+/models/v2.1/models/*_MOUTH_GRIP_v2_1.glb
+__pycache__/
+*.pyc
+.godot/
