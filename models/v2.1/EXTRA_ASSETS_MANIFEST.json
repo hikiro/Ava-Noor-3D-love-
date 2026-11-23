@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "chunk_bytes": 240000,
+  "assets": [
+    {
+      "target_path": "models/v2.1/models/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply",
+      "size": 1075149,
+      "sha256": "f754a76c53fac7efc41ede78f7e77e1b9920fafc7b91cd9fe6c770ac9a4e4af6",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part000",
+          "index": 0,
+          "first_line": 2,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "0aacf5cb788715aec86fb72a1384b910ba1bd5fe",
+          "sha256": "249ac13d7ff680ecdeb01ae7b8ac1560f24be51d3e39d47a13c5d60a7aec8e51"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part001",
+          "index": 1,
+          "first_line": 22,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "88afc0687bbd8393472f564a7ce73692327133fc",
+          "sha256": "03c859b763b5c57fc69ca62dc21920c9c439ccd734271f5cfefbee32d0d9547a"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part002",
+          "index": 2,
+          "first_line": 42,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "243f0876b438bedd6540bec712743a163fc73480",
+          "sha256": "0f80d56ee516d3cb842aa711f6a631ccf59124311615d8650f4f7d887851c007"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part003",
+          "index": 3,
+          "first_line": 62,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "5c114d8ca6a68dba48276eff9a074c08c58751d9",
+          "sha256": "e4fdcd09a93b8c635cbe03b7ce42c076d7755fe94822888a5e6929d14d138c3d"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part004",
+          "index": 4,
+          "first_line": 82,
+          "line_count": 10,
+          "size": 115149,
+          "gitsha": "cbb7c8173a0dddb04ac187e83d791e2178338208",
+          "sha256": "7a131fade703e6c3d9e2845afda828f793d1f9ee2606ff4816bcb0fcde3095e3"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/ava_L_unified_hand_v19.ply",
+      "size": 282506,
+      "sha256": "78d531edb018ce3c89376ef1af8fb9dc75fdf101ad0454e8f4b5c94821165914",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_L_unified_hand_v19.ply/part000",
+          "index": 0,
+          "first_line": 92,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "bc94fe81e7d21ec55510bb2b5ffc3137007611f4",
+          "sha256": "bbda8009456856a8ae0ac0cc8c7fea9d5f20462ef0201a7640f314ec2e4a7923"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_L_unified_hand_v19.ply/part001",
+          "index": 1,
+          "first_line": 112,
+          "line_count": 4,
+          "size": 42506,
+          "gitsha": "f10e3c1de62bae2df875d2078133e671e2459dad",
+          "sha256": "c0701f736ad4d027eaa182f68cf2baf64b3879ba9e5f52777f3884ad03b21b3b"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/ava_R_unified_hand_v19.ply",
+      "size": 284102,
+      "sha256": "8d0caf2c9840898a147d6a8fb3e8eeb7daf707292b815c6b4216a406137ef135",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_R_unified_hand_v19.ply/part000",
+          "index": 0,
+          "first_line": 116,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "099f8d04917097eb9987327ad63d0f85c78d8e63",
+          "sha256": "c8e6df9b742d262a7d859a63b71cb68b3df0fce5dfcf9e4985f05704e08e3fce"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_R_unified_hand_v19.ply/part001",
+          "index": 1,
+          "first_line": 136,
+          "line_count": 4,
+          "size": 44102,
+          "gitsha": "ecb8e18a6e92bf9cdef8b8cfa28e0422559ec1ef",
+          "sha256": "6acfb0f2b760789045889a751b6d116be37c54b4bc6944a4a491eb67f6844830"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/ava_continuous_upperbody_RETOPO_v19.ply",
+      "size": 531189,
+      "sha256": "e8cada361fbc81fb02de4ada8a6aa4bcc382f7ac669ea9cd120ef37661290a74",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_continuous_upperbody_RETOPO_v19.ply/part000",
+          "index": 0,
+          "first_line": 140,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "a9d3ba63d2bf831cf021e0ece781707745cff784",
+          "sha256": "9faa5fdb12daf934a56f5d200c1c176000dbb3704ca780a72b22b0c4c8507a9c"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_continuous_upperbody_RETOPO_v19.ply/part001",
+          "index": 1,
+          "first_line": 160,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "b8619576b4c52968765e639745bd47f90e944e0e",
+          "sha256": "ba52c61f005ca08032aec468dea273ea00849cd90cee1be8771f39cc0519c932"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_continuous_upperbody_RETOPO_v19.ply/part002",
+          "index": 2,
+          "first_line": 180,
+          "line_count": 5,
+          "size": 51189,
+          "gitsha": "cc431dc49e8e2f3c6a3dbb53f0682a7c003eb79a",
+          "sha256": "4915e45c2089a22303a0c9c7035eb10509f88823bc71e0e48bc91757a17428af"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/ava_v19_runtime.npz",
+      "size": 1123022,
+      "sha256": "a1291cad6ec7e6b600b925ce7c218689fd3d0e4a382adec310c1f3fe68b462ca",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_v19_runtime.npz/part000",
+          "index": 0,
+          "first_line": 185,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "0859c89785927396cc577af96eb1043114ba548b",
+          "sha256": "956de8e7d4b8db9f852d58bd9cb6993fe69734ac64fcdf07a472f7b60d95e88c"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_v19_runtime.npz/part001",
+          "index": 1,
+          "first_line": 205,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "d1ea66b8495f62209451ad8ddcb4ec05b1e3359f",
+          "sha256": "f1cc3b9dc7295194a08fdedd55fdd936fe477004d7cc426dac5a73f73013b89b"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_v19_runtime.npz/part002",
+          "index": 2,
+          "first_line": 225,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "3c009c9c72b4ca0a657cd5f1aadb74e5d26c9725",
+          "sha256": "67035597536a99b60a061ea8e7708d2d5ecaa36ea9e327a97caae3a64325792d"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_v19_runtime.npz/part003",
+          "index": 3,
+          "first_line": 245,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "d1c12abd06283c6913f0a7f971752e91c6fed21c",
+          "sha256": "ecab79b2bbf8681ac360e5be094594f73c9980f2998987497156c43b931af9c0"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_v19_runtime.npz/part004",
+          "index": 4,
+          "first_line": 265,
+          "line_count": 14,
+          "size": 163022,
+          "gitsha": "0ec7a3fa70438fe7d03d85a30c9fccf8e134c5d7",
+          "sha256": "6bec31a008d0c62f7fc0061fe4f98dfe2c8f9f42ee9d2ac716b0c97effea1d60"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/base/ava_SKINNED_EXPRESSIVE_v1_5.glb",
+      "size": 1894720,
+      "sha256": "7373fcfd4b57d03b7f112337f959b7e155772a2c8b09049edfc899ebd2bb0631",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part000",
+          "index": 0,
+          "first_line": 279,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "be7d11917f1015e04a15384c2cf83def234eb510",
+          "sha256": "1673ba59dec54a07889d883dbc7ea7da9c9343ebe6b59470305252abd9dce32d"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part001",
+          "index": 1,
+          "first_line": 299,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "390dd3d5e8a9b478132e2239a16ce6eeb1914af9",
+          "sha256": "dfc8836026c2ffc58e6eab33f79bb0f51f23e0e2f50cf4b211fc854dcade8b14"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part002",
+          "index": 2,
+          "first_line": 319,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "de0ed38839bed7baac475c630097bb66f0d652ef",
+          "sha256": "73c061d9bbfe82d075335dc85c2845659acfd5bdbd677b029bebafe2c39d2240"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part003",
+          "index": 3,
+          "first_line": 339,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "984c3c1ada53a875458c5c851b56b97b1c0a32f9",
+          "sha256": "3cfbc2262fda678cb2b31812f93752f2a06e66aa1bba9635a2fc5a13a0f46eec"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part004",
+          "index": 4,
+          "first_line": 359,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "911ca77d40f6e6e90c509c8dc0b3f17af568ddd5",
+          "sha256": "9ab62fb72776282b160dbcef2f64957f6a6506dda480a67dec4e2c8f16c560fe"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part005",
+          "index": 5,
+          "first_line": 379,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "94b04f7bbe2119f691419fa625853dfca4f92580",
+          "sha256": "c76b7198959c21dd238fd56dbefb3e91fd2f9c7f81b82b094bc2199f2d5a29fe"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part006",
+          "index": 6,
+          "first_line": 399,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "33ed5fafeb4e2777dfbc4c327af0d18f0a638284",
+          "sha256": "21f565b11cad97c4ca9c4559c53b19d0d2fb383f04225c858e6f5512062632d1"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_SKINNED_EXPRESSIVE_v1_5.glb/part007",
+          "index": 7,
+          "first_line": 419,
+          "line_count": 18,
+          "size": 214720,
+          "gitsha": "5c7c2f4d0c8f489829332371a7a8d9df8171ce64",
+          "sha256": "969ddb81c784d77e6da674c4310af9bad739f180ec40e38fdc609edf0f0eaaa2"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/base/ava_render_data_v15.npz",
+      "size": 291458,
+      "sha256": "0a6153fc6e61f18323dd6b442673bf92fc5fa7df5779d17de48ab60c7a855ba4",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/ava_render_data_v15.npz/part000",
+          "index": 0,
+          "first_line": 437,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "2a33149768b31242bd6cd0ca97c70e4af308b055",
+          "sha256": "3fbc3e499e95c20a8562430e549e3f96f532e004869622835f0dba8d37e440e7"
+        },
+        {
+          "path": "models/v2.1/parts-extra/ava_render_data_v15.npz/part001",
+          "index": 1,
+          "first_line": 457,
+          "line_count": 5,
+          "size": 51458,
+          "gitsha": "379423b82b1d6012f59d852e3d27386cc56b1bf6",
+          "sha256": "2f5ba69596158c3988cfff4257944ac85c251a89101d4cd7f8e803661ec8bb64"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/base/noor_SKINNED_EXPRESSIVE_v1_5.glb",
+      "size": 2244952,
+      "sha256": "062c76f0fba5765d2eafa46a2a5b390813d6a78574bf031d1bed5824d36e44bb",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part000",
+          "index": 0,
+          "first_line": 462,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "59d7cb04abd35c99c723a903979052719d460e8c",
+          "sha256": "da6f15d8722fdec9f5f2b9d6af6ff65f2635be1804cf94a6c9795a4d6dadf5c9"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part001",
+          "index": 1,
+          "first_line": 482,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "243452c68598c785c5629effb9c7bfb0468394ae",
+          "sha256": "a0271b2391f4fdde9f320ee7f0fd9e0bb220e62d0bf0d3c6fde7490c638e9927"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part002",
+          "index": 2,
+          "first_line": 502,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "ce28b5f7ec7196ecfe1acd840ad4f92501571880",
+          "sha256": "32360b61e2a2471da3d7a3e752ffe115f994c4c58b4524c44f0c7cd50b82f775"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part003",
+          "index": 3,
+          "first_line": 522,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "e87de9c5a6b15c41aba3040d0de2959e1c530ef4",
+          "sha256": "d1474247f6e8262c706fe6d54a583a857a2d8a4c01376cc7c1813781d8a82ae2"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part004",
+          "index": 4,
+          "first_line": 542,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "8cf63ae77a9db7dc69e73fdf0f2f1c36c28b12c6",
+          "sha256": "e09203b864c94e364e0861609d693f79330d7f710f74c0f08a3e484b79c3e0b8"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part005",
+          "index": 5,
+          "first_line": 562,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "1ea882f8adca8eb7442d52f4542af08f24aa4c28",
+          "sha256": "80df856065b7fce11ebb220a13df698771d29f90baf0af83faaaa0db7d14e197"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part006",
+          "index": 6,
+          "first_line": 582,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "ffa4f7c28a3b73ca30dd3abd12a220e683d8fc39",
+          "sha256": "d319604396fb970350821271ba33f6628ecad9ab5d4c10c1ed528a71cf6b3761"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part007",
+          "index": 7,
+          "first_line": 602,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "743a3912e7b6546b918d62eea83bfa592b2147ad",
+          "sha256": "c16397e0af67eaeee6da064148d20797602aa1999c144cca416acc0659ebd9b1"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part008",
+          "index": 8,
+          "first_line": 622,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "5665b556bf339903b9322f844be32f5ab2082e75",
+          "sha256": "81b84b478b873ac09dc58204260f4c3cb5603907573860f4c8a00b10f1df3fa3"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_SKINNED_EXPRESSIVE_v1_5.glb/part009",
+          "index": 9,
+          "first_line": 642,
+          "line_count": 8,
+          "size": 84952,
+          "gitsha": "636f2756288aa71887fc8543f09aad5e9fc0d4ea",
+          "sha256": "4b8a42aa78d4e5d5348e035ad55944930371d1de9f95ff162467938b51ec283e"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/base/noor_render_data_v15.npz",
+      "size": 344806,
+      "sha256": "ea1bbf5a74f811686a53a7bab44f728bf4cae36319fcc3ec7cfd53c3b9f5fdd2",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_render_data_v15.npz/part000",
+          "index": 0,
+          "first_line": 650,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "2e8f309c0860fd109692f38bdb5fb13c57857d89",
+          "sha256": "0922d299b89522f5d28628aed7cf93c4af3dee8981453497ec992cbdabb552f6"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_render_data_v15.npz/part001",
+          "index": 1,
+          "first_line": 670,
+          "line_count": 9,
+          "size": 104806,
+          "gitsha": "25d1bbf7da7d2ecf729a1059ca6a7c0f9804b90c",
+          "sha256": "e2d571077150d54938657a8e6186303c18d0a53d4caefae6f5d17a23702c50a3"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply",
+      "size": 1099241,
+      "sha256": "68a477961c4d2f8cfa1b6dd26519bb5dc5f1a4168c50c00c49acf5966c4c5b31",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part000",
+          "index": 0,
+          "first_line": 679,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "0bc0a68e922459d02e3f2663230e7c82ab91c9c0",
+          "sha256": "67102b05fc94967c5e71ab7c32013cb37f91b8448ba3c085b2f2e24293e18e6f"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part001",
+          "index": 1,
+          "first_line": 699,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "124daf44ddb80713d1734a7d6b094a7479eba6e0",
+          "sha256": "1d33381fff97623ef79c8c6e91518a4c6f14c0c2d5eb79ae4e86f89aaa65199c"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part002",
+          "index": 2,
+          "first_line": 719,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "0e5c1cb80236ef63c76aefd3817b01f0baac4c39",
+          "sha256": "e5290e513bb4f7b5cd8de1a5cdc17ac3a4eaaa6a1e77a308f50d1ad3642ad80a"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part003",
+          "index": 3,
+          "first_line": 739,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "ba86af1711ea2ebb6ff7b8de571ed8bcc83e15fc",
+          "sha256": "83c537c6c2d20c073d518fdbc97ec9beb239fa88419253939daa72ff3f683eb7"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_BODY_ARMS_HANDS_WELDED_rest_v20.ply/part004",
+          "index": 4,
+          "first_line": 759,
+          "line_count": 12,
+          "size": 139241,
+          "gitsha": "a6e2089c0ba0290d19b83068b8a21e024605b9a7",
+          "sha256": "0aaa3e530affae495eee255f576b4dad3a431b7d334ca9a2beb0d4121c429de1"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/noor_L_unified_hand_v19.ply",
+      "size": 282734,
+      "sha256": "63610faa0f35f235867a72ce3516eb14946b5934300dd7e79ef24e9d1a31cb85",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_L_unified_hand_v19.ply/part000",
+          "index": 0,
+          "first_line": 771,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "3281d42d3ae9cedb73f4d85e12fe6ebf8cdb4ce0",
+          "sha256": "7c897a28c4a0fe8ff13febc6fc4d8fdce48e4b725b8fdf00269040ec14524696"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_L_unified_hand_v19.ply/part001",
+          "index": 1,
+          "first_line": 791,
+          "line_count": 4,
+          "size": 42734,
+          "gitsha": "955a3d80bd631d76c83b70881f6e57573c4701d3",
+          "sha256": "2bb22773208ed3cab58af5b05066609f1a2ff47b2b0aea5563a91485f3fd1d9d"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/noor_R_unified_hand_v19.ply",
+      "size": 283950,
+      "sha256": "e590532422d45fb6d45e8123990d20881d8a84fbefce5c6539c35ab3a05fb6b2",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_R_unified_hand_v19.ply/part000",
+          "index": 0,
+          "first_line": 795,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "f6b3a65035a4ad212cf9355a65477213739f3c2b",
+          "sha256": "1fab74de940b022744dc4676a6473d489a85a2d3acd769dd626ccfa7cf1997c4"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_R_unified_hand_v19.ply/part001",
+          "index": 1,
+          "first_line": 815,
+          "line_count": 4,
+          "size": 43950,
+          "gitsha": "61d0a6be8640fbf662193989042c7db5fdafa287",
+          "sha256": "c90f47526b38581c066fb0ee18f890ea01c59441e29756644e549850cc06b5c4"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/noor_continuous_upperbody_RETOPO_v19.ply",
+      "size": 555193,
+      "sha256": "89eb3653e33e5833c0955f1a2df593f1b608ece00d3c91a73f51fc25b5a2b95c",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_continuous_upperbody_RETOPO_v19.ply/part000",
+          "index": 0,
+          "first_line": 819,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "f7f3ae8b6684e8757c76f8667e6364f9c11bafb3",
+          "sha256": "7f7afc6e229184a7d3c2ce427899a4102d4005a87251a6d68e81f0bb395c4328"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_continuous_upperbody_RETOPO_v19.ply/part001",
+          "index": 1,
+          "first_line": 839,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "25027389df4946d65fa6ca0f7225f20a21a6ac62",
+          "sha256": "9cfbd132da03157a649309668ad66e625945e688b826e847f4b1b288eac3ccf7"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_continuous_upperbody_RETOPO_v19.ply/part002",
+          "index": 2,
+          "first_line": 859,
+          "line_count": 7,
+          "size": 75193,
+          "gitsha": "cdf7186f1f3e0668127c9af4e601d178e4d270db",
+          "sha256": "39138902835b569c7c7e6663864941f22b5e07c7a9c3d6806c179c4ec0a8fd2f"
+        }
+      ]
+    },
+    {
+      "target_path": "models/v2.1/models/noor_v19_runtime.npz",
+      "size": 1217098,
+      "sha256": "a1d6200ed4438a519cb94a4e7e0fcbd55600b268e2f3cd981bbb5ad1bee81711",
+      "segments": [
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part000",
+          "index": 0,
+          "first_line": 866,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "63e5a6be113864264dab7d092ec4b12137f33b2d",
+          "sha256": "b9230e6f002ca7666b6a039b2eecfaef368bbc585d4e13deb2fd628fd849cda8"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part001",
+          "index": 1,
+          "first_line": 886,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "58feb006aed01620b14d8b3eecd484a20cfaccef",
+          "sha256": "3dd14cf615a0e4ead7ae6fe9ed9fd813e9f3d1b0c638debf2636a6461d0709ab"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part002",
+          "index": 2,
+          "first_line": 906,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "617e7f718d39f292b03faeeb88009e2ceda5e8af",
+          "sha256": "57094443125119565243cd962decf51f3790dbc14c3f17f541a1924e9f36ce31"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part003",
+          "index": 3,
+          "first_line": 926,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "9e29549c2908263fc05af82d4f58d0e413975a3b",
+          "sha256": "bafc33916501b0d51614192bbada1d0e403f216db25bbba34484fff1b70f9050"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part004",
+          "index": 4,
+          "first_line": 946,
+          "line_count": 20,
+          "size": 240000,
+          "gitsha": "0fb5a66874404ae4a0f2ae09d8bf5c6492542f32",
+          "sha256": "51b69a118b53263b6862ac4509d9c78562dd2e6d88c45afd3fe688af3006cddc"
+        },
+        {
+          "path": "models/v2.1/parts-extra/noor_v19_runtime.npz/part005",
+          "index": 5,
+          "first_line": 966,
+          "line_count": 2,
+          "size": 17098,
+          "gitsha": "9f77f784e406a8d7f178df77735cd0121c79c098",
+          "sha256": "da6cec99204d974a2688a6d810caa39a86b29af26a7377e8bb49152e63e7d2d9"
+        }
+      ]
+    }
+  ]
+}
