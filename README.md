@@ -29,7 +29,7 @@ python tools/reassemble_glb.py
 
 The scripts verify every binary chunk and each complete file against SHA-256 checksums. The final character GLBs are recreated in `models/v2.1/godot/models/` and `models/v2.1/models/`; the PLY, NPZ and base GLB inputs are restored under `models/v2.1/models/`.
 
-For convenience, the [GitHub Actions build](../../actions/workflows/assemble-glb.yml) automatically reconstructs and checksum-verifies all these assets and publishes a downloadable ZIP artifact. The artifact has limited retention, but the underlying tracked chunks stay in the repository.
+For convenience, the [GitHub Actions build](https://github.com/hikiro/Ava-Noor-3D-love-/actions/workflows/assemble-glb.yml) automatically reconstructs and checksum-verifies all these assets and publishes a downloadable ZIP artifact. The artifact has limited retention, but the underlying tracked chunks stay in the repository.
 
 ### Running the scene
 
